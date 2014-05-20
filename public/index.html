@@ -1,0 +1,97 @@
+<!-- This html file is a simple test-run to reproduce
+     a more famous website -->
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Shmoogle</title>
+  <!-- Include our CSS styles from external file -->
+  <link href="app.css" media="screen" rel="stylesheet"/>
+</head>
+<body>
+  <!-- This is where the page content goes -->
+  <div class ="navigation-container">
+  <ul class ="nav">
+
+     <li> <a href="https://www.google.com"> <p style="color:white"> Search </p></a> </li>
+
+     <li> <a href="http://www.google.com/imghp">Images</a>
+     </li>
+
+     <li> <a href="https://maps.google.com">Maps</a> </li>
+
+     <li><a href="https://play.google.com">Play</a> </li>
+
+     <li><a href="http://www.youtube.com">YouTube</a></li>
+
+     <li><a href="http://gmail.com/">Gmail</a></li>
+
+     <li> <a href="https://news.google.com">News</a></li>
+
+     <li> <a href="https://drive.google.com">Drive</a></li>
+
+      <li><a href="https://www.google.com/calendar">Calendar</a></li>
+
+  </ul>
+  </div>
+
+
+<!-- app/views/layouts/application.html.erb HERE SEARCH BAR-->
+  <div class="search-container">
+  <form>
+    <label>Shmoogle</label>
+    <input type="search" name="search">
+    <input type="submit" value="Search">
+  </form>
+  </div>
+
+  <div class ="filters-container">
+  <ul class="lol">
+
+
+      <li><a href="https://www.google.com">Web</a></li>
+
+
+      <li><a href="http://www.google.com/imghp">Images</a></li>
+
+
+      <li><a href="https://maps.google.com">Maps</a></li>
+
+      <li><a href="http://www.google.com/shopping">Shopping</a></li>
+
+      <li><a href="https://www.google.com/#q=google+search+tools" >Search Tools</a></li>
+  </ul>
+  </div>
+
+  <div class ="main-container">
+    <ul class="search-result-list">
+        <div class="search-result">
+          <li><h3 class="search-result-title">
+           <a href="#">Awesome Fake Result Title</a>
+          </h3>
+          <cite class = "search-result-source">www.awesomesauce.com</cite>
+          <span>Something that is more awesome than awesome. It is a modifier of your basic awesome into a more awesome version.</span> </li>
+         <li> <h3 class="search-result-title">
+            <a href="http://www.lequipe.fr">Best French Sports Website</a>
+          </h3>
+          <cite class = "search-result-source">www.lequipe.fr</cite>
+          <span>Ce site est dédier à ceux qui sont passionés par ls sport et la langue française. Un site avec des articles sportifs superbement ecrit. </span></li>
+          <li><h3 class="search-result-title">
+          <a href="https://github.com/dpoint01">Best GitHub Profile Out There</a>
+          </h3>
+          <cite class = "search-result-source">www.github.com</cite>
+          <span>Come and check out this amazing github profile! </span></li>
+          <li><h3 class="search-result-title">
+          <a href="https://news.ycombinator.com/">Hacker News </a>
+          </h3>
+          <cite class = "search-result-source">www.hackernews.com</cite>
+          <span> An amazing collection of interesting articles about the tech world. Plenty on both hardware and software development. Updated daily! </span></li>
+        </div>
+   </ul>
+ </div>
+
+</body>
+</html>
